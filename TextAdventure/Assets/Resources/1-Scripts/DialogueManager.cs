@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class DialogueManager : MonoBehaviour
 {
+    #region Public Variables
     //public TextNode rootNode
     //public TextNode choicesMade;
 
@@ -13,24 +14,27 @@ public class DialogueManager : MonoBehaviour
     public RectTransform startGameScreen;
     public RectTransform optionsContainer;
     public GameObject buttonPrefab;
+    #endregion
+
     #region Cache
     public int edCounter;
     #endregion
 
+    #region Monobehaviour Callbacks
     private void Awake()
     {
         Initialize();
     }
-
+    #endregion
     void Initialize()
     {
         edCounter = 0;
     }
 
-    /*void DisplayNode(TextNode _textNode)
+    void DisplayNode(TextNode _textNode)
     {
         bodyText.text = _textNode.GetText(edCounter);
-    }*/
+    }
 
     void ClearOptions()
     {
@@ -40,7 +44,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    /*void GenerateOptions(TextNode _nodes)
+    void GenerateOptions(TextNode _nodes)
     {
         int index = 0;
         foreach (NodeOption option in _nodes.nodeOptions)
@@ -50,11 +54,11 @@ public class DialogueManager : MonoBehaviour
 
             SetOption(optionGO, option);
         }
-    }*/
+    }
 
-    /*void SetOption(GameObject _nodeObject, NodeOption _option)
+    void SetOption(GameObject _nodeObject, NodeOption _option)
     {
         _nodeObject.GetComponentInChildren<TextMeshProUGUI>().text = _option.bodyText;
         // Get the button
-    }*/
+    }
 }
