@@ -15,6 +15,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     public RectTransform optionsContainer;
     public Animator bookAnim;
     public RectTransform startUI;
+    public AudioClip pageFlipSFX;
     #endregion
 
     #region Cache
@@ -102,6 +103,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         if (storyStarted)
         {
             AnimTurnPage();
+            AudioManager.Instance.PlaySFX(pageFlipSFX);
         }
         else
         {
