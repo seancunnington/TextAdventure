@@ -79,6 +79,8 @@ public class DialogueManager : MonoSingleton<DialogueManager>
 
                 SetOption(optionGO, option);
             }
+
+            index++;
         }
     }
 
