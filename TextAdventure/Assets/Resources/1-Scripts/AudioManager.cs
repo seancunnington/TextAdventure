@@ -33,7 +33,7 @@ public class AudioManager : MonoSingleton<AudioManager>
 
           // Begin track fading
           oldAmbience.GetComponent<TrackFading>().FadeOut();        // Fade out old
-          currentAmbience.GetComponent<TrackFading>().FadeIn();      // Fade in new
+          currentAmbience.GetComponent<TrackFading>().FadeIn();     // Fade in new
      }
 
 
