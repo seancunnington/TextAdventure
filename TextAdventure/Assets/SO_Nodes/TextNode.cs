@@ -10,7 +10,7 @@ public class EdOptions
 
 
 [System.Serializable]
-public class NodeOptions
+public class NodeOption
 {
      public TextNode linkedNode;
      public string bodyText = "";
@@ -29,7 +29,7 @@ public class TextNode : ScriptableObject
      public EdOptions[] edOptions;
 
      [Header("Next Nodes Transitioning To")]
-     public NodeOptions[] nodeOptions;
+     public NodeOption[] nodeOptions;
 
      [Header("Audio")]
      public AudioClip sfx;
@@ -58,4 +58,9 @@ public class TextNode : ScriptableObject
           // If no option was found, return debug string.
           return finalText;
      }
+
+    public void GoToThisOption()
+    {
+        DialogueManager.Instance.DisplayNode(this);
+    }
 }
