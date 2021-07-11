@@ -13,6 +13,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     public RectTransform endGameScreen;
     public RectTransform startGameScreen;
     public RectTransform optionsContainer;
+    public Animator bookAnim;
     #endregion
 
     #region Cache
@@ -31,6 +32,21 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     {
         edCounter = 0;
         DisplayNode(rootNode);
+    }
+
+    void AnimTurnBook()
+    {
+        bookAnim.SetTrigger("TurnPage");
+    }
+
+    void AnimCloseBook()
+    {
+        bookAnim.SetTrigger("CloseBook");
+    }
+
+    void AnimOpenBook()
+    {
+        bookAnim.SetTrigger("OpenBook");
     }
 
     public void DisplayNode(TextNode _textNode)
