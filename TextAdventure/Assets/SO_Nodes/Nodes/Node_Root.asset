@@ -15,11 +15,15 @@ MonoBehaviour:
   edMeeting: 0
   edOptions:
   - requiredMeetings: 0
-    bodyText: Our story begins here!
+    bodyText: We've never seen Edguardo.
+  - requiredMeetings: 3
+    bodyText: We've seen Edguardo around.
+  - requiredMeetings: 5
+    bodyText: We are incredibly familiar with Edguardo.
   nodeOptions:
   - linkedNode: {fileID: 11400000, guid: 78b3d8a7106ae4f4fa0beed2215409fe, type: 2}
     bodyText: Eat some pizza.
-    requiredPreviousNode: {fileID: 0}
+    requiredPreviousNode: {fileID: 11400000, guid: 78b3d8a7106ae4f4fa0beed2215409fe, type: 2}
   sfx: {fileID: 0}
   AmbienceTrack: {fileID: 0}
   MusicTrack: {fileID: 0}
