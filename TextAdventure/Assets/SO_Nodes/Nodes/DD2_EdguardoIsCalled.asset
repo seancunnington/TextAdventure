@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb0d7bee9bf3534da865b85fbc10d9f, type: 3}
+  m_Name: DD2_EdguardoIsCalled
+  m_EditorClassIdentifier: 
+  edMeeting: 0
+  edOptions:
+  - requiredMeetings: 0
+    bodyText: "You step out, gyrating and smiling like an idiot. The Kobold turns
+      and stops, raising an eyebrow. It seems nonplussed and slightly annoyed. You
+      didn\u2019t stop to think if it was male or female, or if Kobolds are even
+      attracted to humans. It reaches a claw under the counter and you hear an alarm.
+      Almost instantaneously, Edguardo the guard is there. He looks at you and stops,
+      raising an eyebrow. You don\u2019t think Edguardo is impressed by your physique.
+      He tells you to get your ass back to your room and dress then quietly slips
+      a coin into the Kobolds hand..."
+  nodeOptions: []
+  sfx: {fileID: 0}
+  AmbienceTrack: {fileID: 0}
+  MusicTrack: {fileID: 0}

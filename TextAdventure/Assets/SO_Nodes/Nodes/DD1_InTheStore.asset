@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb0d7bee9bf3534da865b85fbc10d9f, type: 3}
+  m_Name: DD1_InTheStore
+  m_EditorClassIdentifier: 
+  edMeeting: 0
+  edOptions:
+  - requiredMeetings: 0
+    bodyText: "Beginning to reconsider the wisdom of revealing all instead of leaving
+      some to the lustful human imagination, you quietly open the door to The Kobold
+      that Carries. The shopkeep hasn\u2019t seen you yet, and no one else is in
+      the store, so you casually peruse the wares."
+  nodeOptions:
+  - linkedNode: {fileID: 0}
+    bodyText: Buy an outfit like a normal naked human being
+    requiredPreviousNode: {fileID: 0}
+  - linkedNode: {fileID: 0}
+    bodyText: Present Exhibit D to the shopkeepers court
+    requiredPreviousNode: {fileID: 0}
+  - linkedNode: {fileID: 0}
+    bodyText: Who pays for clothes these days? Rob the place.
+    requiredPreviousNode: {fileID: 0}
+  sfx: {fileID: 0}
+  AmbienceTrack: {fileID: 0}
+  MusicTrack: {fileID: 0}

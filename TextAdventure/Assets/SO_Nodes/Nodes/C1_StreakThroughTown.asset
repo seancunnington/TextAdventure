@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb0d7bee9bf3534da865b85fbc10d9f, type: 3}
+  m_Name: C1_StreakThroughTown
+  m_EditorClassIdentifier: 
+  edMeeting: 0
+  edOptions:
+  - requiredMeetings: 0
+    bodyText: 'Clothes? Clothes are for priests and the ashamed! You...are neither.
+      Swaggering down the stairs buck naked, you imagine the shrieks and gasps as
+      nothing more than appreciation for the natural artwork God has bestowed you
+      with. You stride out the door and into the sun to the hoots and hollers of
+      the tavern goers, your pristine silhouette eclipsing the doorway. And you run.
+      After several blocks of glory, you begin to feel a bit chilled and think about
+      popping into a shop to grab some skivvies. '
+  nodeOptions:
+  - linkedNode: {fileID: 11400000, guid: bb1e825717c0c1f4c9428e6c2406a6d5, type: 2}
+    bodyText: Drop into that nice looking shop
+    requiredPreviousNode: {fileID: 0}
+  - linkedNode: {fileID: 0}
+    bodyText: Continue your morning run
+    requiredPreviousNode: {fileID: 0}
+  sfx: {fileID: 0}
+  AmbienceTrack: {fileID: 8300000, guid: 687620f4a13c0f642aee5d25af08eec0, type: 3}
+  MusicTrack: {fileID: 0}

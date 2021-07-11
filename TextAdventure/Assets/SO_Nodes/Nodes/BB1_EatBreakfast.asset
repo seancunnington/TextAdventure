@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb0d7bee9bf3534da865b85fbc10d9f, type: 3}
+  m_Name: BB1_EatBreakfast
+  m_EditorClassIdentifier: 
+  edMeeting: 0
+  edOptions:
+  - requiredMeetings: 0
+    bodyText: "The pig\u2019s stomach and kidney with eggs smells delicious. You
+      order some and devour the meal. Soon though, a telltale rumble of the bowels
+      disturbs you. You double over, gripping your middle. You have to find somewhere
+      to evacuate the meal from the netherlands!"
+  nodeOptions:
+  - linkedNode: {fileID: 11400000, guid: ee147facb8614cb428210d068aa6313b, type: 2}
+    bodyText: Outside, quickly!
+    requiredPreviousNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000, guid: cc56281abfa137041b166aadefd5cffc, type: 2}
+    bodyText: Run upstairs to the chamber pot!
+    requiredPreviousNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000, guid: 5e161a38c621e124293619cc2810edf6, type: 2}
+    bodyText: Maybe no one will notice if I just...
+    requiredPreviousNode: {fileID: 0}
+  sfx: {fileID: 0}
+  AmbienceTrack: {fileID: 0}
+  MusicTrack: {fileID: 0}

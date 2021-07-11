@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb0d7bee9bf3534da865b85fbc10d9f, type: 3}
+  m_Name: A2_Breakfast
+  m_EditorClassIdentifier: 
+  edMeeting: 0
+  edOptions:
+  - requiredMeetings: 0
+    bodyText: "After much effort and panic you get dressed. You leave your room and
+      head to the lower part of the tavern for breakfast. Walking down you notice
+      there\u2019s a large group of burly men already drunk, and a very sultry kobold
+      eyeing you up."
+  nodeOptions:
+  - linkedNode: {fileID: 11400000, guid: 84ef967f53cc42941a03cb5e7265bb8f, type: 2}
+    bodyText: Look for trouble... Start a fight
+    requiredPreviousNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000, guid: 535df795c6d2cc14ba32e12f6d445240, type: 2}
+    bodyText: Feeling confident! Flirt with a Kobold
+    requiredPreviousNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000, guid: 1e059bda07d2e9942af9b0beaeb6d6ae, type: 2}
+    bodyText: 'Test your stomach! Eat the food '
+    requiredPreviousNode: {fileID: 0}
+  sfx: {fileID: 0}
+  AmbienceTrack: {fileID: 8300000, guid: 687620f4a13c0f642aee5d25af08eec0, type: 3}
+  MusicTrack: {fileID: 0}

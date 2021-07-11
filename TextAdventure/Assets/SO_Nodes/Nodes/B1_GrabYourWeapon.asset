@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb0d7bee9bf3534da865b85fbc10d9f, type: 3}
+  m_Name: B1_GrabYourWeapon
+  m_EditorClassIdentifier: 
+  edMeeting: 0
+  edOptions:
+  - requiredMeetings: 0
+    bodyText: You saunter up to these burly men probably more confident then you
+      should be and with a mighty swing you miss wildly, falling on your backside.
+      The men shrug then let out a loud yell and go into a frenzy! The brawl is on!
+      Quick adventurer find your weapon!
+  nodeOptions:
+  - linkedNode: {fileID: 11400000, guid: bf9a1c552facf964ea86551437e6d594, type: 2}
+    bodyText: Edguardo
+    requiredPreviousNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000, guid: b9ceb6bd5bf0bcf4e9facb0b98cfb0b2, type: 2}
+    bodyText: "\u201CFish\u201D"
+    requiredPreviousNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000, guid: cc56281abfa137041b166aadefd5cffc, type: 2}
+    bodyText: Barstool
+    requiredPreviousNode: {fileID: 0}
+  sfx: {fileID: 0}
+  AmbienceTrack: {fileID: 0}
+  MusicTrack: {fileID: 0}

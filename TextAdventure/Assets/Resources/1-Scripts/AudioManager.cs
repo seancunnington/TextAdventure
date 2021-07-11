@@ -17,23 +17,31 @@ public class AudioManager : MonoSingleton<AudioManager>
 
      public void RequestAmbienceTrack(AudioClip newAmbience)
      {
-        if (newAmbience == null)
-        {
-            return;
-        }
-        // If the newAmbience is the SAME as the current Ambience, abort.
-        if (newAmbience == currentAmbience.clip)
+          // If no ambience clip passed in, abort.
+          if (newAmbience == null)
                return;
 
+          // If there is a currentAmbience, 
+          // And if the newAmbience is the SAME as the current Ambience, abort.
+          if (currentAmbience != null)
+          {
+               if (newAmbience == currentAmbience.clip)
+                    return;
+          }
+
+          // Create the new ambience,
           GameObject newAudioObject = CreateTrackSource(newAmbience, ambienceVolume);
 
           // Swap currentAmbience to new object
           AudioSource oldAmbience = currentAmbience;
           currentAmbience = newAudioObject.GetComponent<AudioSource>();
 
-          // Begin track fading
-          oldAmbience.GetComponent<TrackFading>().FadeOut();        // Fade out old
+          // And fade the new ambience in.
           currentAmbience.GetComponent<TrackFading>().FadeIn();     // Fade in new
+
+          // If the old ambience exists, then fade it out.
+          if (oldAmbience != null)
+               oldAmbience.GetComponent<TrackFading>().FadeOut();        // Fade out old
      }
 
 

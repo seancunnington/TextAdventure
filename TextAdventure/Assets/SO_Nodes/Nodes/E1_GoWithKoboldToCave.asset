@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb0d7bee9bf3534da865b85fbc10d9f, type: 3}
+  m_Name: E1_GoWithKoboldToCave
+  m_EditorClassIdentifier: 
+  edMeeting: 0
+  edOptions:
+  - requiredMeetings: 0
+    bodyText: "Through gyration, flirtation, and the destruction of valuables personal
+      or otherwise you have arrived, willingly or not, at the den of this kobold.
+      Once inside you realize there\u2019s quite a few kobolds in here, kinda weird
+      but doesn\u2019t bother you much. The cave is fairly empty except for a large
+      stone bed as well as an elegant statue of a multi headed dragon."
+  nodeOptions:
+  - linkedNode: {fileID: 0}
+    bodyText: You came here to slay, Lay down on the large stone bed
+    requiredPreviousNode: {fileID: 0}
+  - linkedNode: {fileID: 0}
+    bodyText: Realize that this might be a bad Idea. Call for Edguardo
+    requiredPreviousNode: {fileID: 0}
+  sfx: {fileID: 0}
+  AmbienceTrack: {fileID: 0}
+  MusicTrack: {fileID: 0}

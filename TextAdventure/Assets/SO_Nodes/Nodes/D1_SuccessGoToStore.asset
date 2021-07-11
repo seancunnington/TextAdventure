@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb0d7bee9bf3534da865b85fbc10d9f, type: 3}
+  m_Name: D1_SuccessGoToStore
+  m_EditorClassIdentifier: 
+  edMeeting: 0
+  edOptions:
+  - requiredMeetings: 0
+    bodyText: After a very dangerous gamble at the tavern you clean yourself up from
+      all the debris and carnage gathered on your person. Then you head out about
+      town walking for a bit.Suddenly remember that you needed to go shopping for
+      supplies for your dungeon crawl today and scurry off to the general store.
+      Upon entering said store you take note that it is managed  by a very Strapping
+      kobold.
+  nodeOptions:
+  - linkedNode: {fileID: 11400000, guid: 535df795c6d2cc14ba32e12f6d445240, type: 2}
+    bodyText: Become the problem, Deface the store
+    requiredPreviousNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000, guid: 2f6cd7c2dcdf9484e859d1a597d8a42d, type: 2}
+    bodyText: Present Exhibit D to the shopkeepers court
+    requiredPreviousNode: {fileID: 0}
+  sfx: {fileID: 0}
+  AmbienceTrack: {fileID: 0}
+  MusicTrack: {fileID: 0}
