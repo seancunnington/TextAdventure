@@ -2,22 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class DialogueManager : MonoBehaviour
+public class DialogueManager : MonoSingleton<DialogueManager>
 {
     #region Public Variables
-    //public TextNode rootNode
-    //public TextNode choicesMade;
+    public TextNode rootNode;
 
     public TextMeshProUGUI bodyText;
     public RectTransform endGameScreen;
     public RectTransform startGameScreen;
     public RectTransform optionsContainer;
-    public GameObject buttonPrefab;
     #endregion
 
     #region Cache
     public int edCounter;
+    public List<TextNode> optionsChosen = new List<TextNode>();
     #endregion
 
     #region Monobehaviour Callbacks
@@ -29,11 +29,16 @@ public class DialogueManager : MonoBehaviour
     void Initialize()
     {
         edCounter = 0;
+        DisplayNode(rootNode);
     }
 
-    void DisplayNode(TextNode _textNode)
+    public void DisplayNode(TextNode _textNode)
     {
+        ClearOptions();
         bodyText.text = _textNode.GetText(edCounter);
+        GenerateOptions(_textNode);
+
+        optionsChosen.Add(_textNode);
     }
 
     void ClearOptions()
@@ -44,10 +49,10 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    void GenerateOptions(TextNode _nodes)
+    void GenerateOptions(TextNode _node)
     {
         int index = 0;
-        foreach (NodeOption option in _nodes.nodeOptions)
+        foreach (NodeOption option in _node.nodeOptions)
         {
             GameObject optionGO = optionsContainer.GetChild(index).gameObject;
             optionGO.SetActive(true);
@@ -59,6 +64,6 @@ public class DialogueManager : MonoBehaviour
     void SetOption(GameObject _nodeObject, NodeOption _option)
     {
         _nodeObject.GetComponentInChildren<TextMeshProUGUI>().text = _option.bodyText;
-        // Get the button
+        _nodeObject.GetComponentInChildren<Button>().onClick.AddListener(_option.linkedNode.GoToThisOption);
     }
 }
