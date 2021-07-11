@@ -10,12 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fcb0d7bee9bf3534da865b85fbc10d9f, type: 3}
-  m_Name: TestNode_1
+  m_Name: Node_Root
   m_EditorClassIdentifier: 
-  edOptions: []
   edMeeting: 0
-  requiredPreviousNode: {fileID: 0}
-  linkedNextNodes: []
+  edOptions:
+  - requiredMeetings: 0
+    bodyText: Our story begins here!
+  nodeOptions:
+  - linkedNode: {fileID: 11400000, guid: 78b3d8a7106ae4f4fa0beed2215409fe, type: 2}
+    bodyText: Eat some pizza.
+    requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}
   AmbienceTrack: {fileID: 0}
   MusicTrack: {fileID: 0}

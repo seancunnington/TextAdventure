@@ -58,4 +58,9 @@ public class TextNode : ScriptableObject
           // If no option was found, return debug string.
           return finalText;
      }
+
+    public void GoToThisOption()
+    {
+        DialogueManager.Instance.DisplayNode(this);
+    }
 }
