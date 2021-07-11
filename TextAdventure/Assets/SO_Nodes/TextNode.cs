@@ -61,6 +61,6 @@ public class TextNode : ScriptableObject
 
     public void GoToThisOption()
     {
-        DialogueManager.Instance.DisplayNode(this);
+        DialogueManager.Instance.GetNextNode(this);
     }
 }

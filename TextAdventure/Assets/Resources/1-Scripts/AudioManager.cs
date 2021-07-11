@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioManager : MonoBehaviour
+public class AudioManager : MonoSingleton<AudioManager>
 {
      AudioSource currentAmbience;
      AudioSource currentMusic;
@@ -17,8 +17,12 @@ public class AudioManager : MonoBehaviour
 
      public void RequestAmbienceTrack(AudioClip newAmbience)
      {
-          // If the newAmbience is the SAME as the current Ambience, abort.
-          if (newAmbience == currentAmbience.clip)
+        if (newAmbience == null)
+        {
+            return;
+        }
+        // If the newAmbience is the SAME as the current Ambience, abort.
+        if (newAmbience == currentAmbience.clip)
                return;
 
           GameObject newAudioObject = CreateTrackSource(newAmbience, ambienceVolume);
@@ -35,8 +39,13 @@ public class AudioManager : MonoBehaviour
 
      public void RequestMusicTrack(AudioClip newMusic)
      {
-          // If the newAmbience is the SAME as the current Ambience, abort.
-          if (newMusic == currentMusic.clip)
+        if (newMusic == null)
+        {
+            return;
+        }
+
+        // If the newAmbience is the SAME as the current Ambience, abort.
+        if (newMusic == currentMusic.clip)
                return;
 
           GameObject newAudioObject = CreateTrackSource(newMusic, musicVolume);

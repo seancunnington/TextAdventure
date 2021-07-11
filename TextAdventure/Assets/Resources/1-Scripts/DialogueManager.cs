@@ -14,11 +14,13 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     public RectTransform startGameScreen;
     public RectTransform optionsContainer;
     public Animator bookAnim;
+    public RectTransform startUI;
     #endregion
 
     #region Cache
     public int edCounter;
     public List<TextNode> optionsChosen = new List<TextNode>();
+    bool storyStarted = false;
     #endregion
 
     #region Monobehaviour Callbacks
@@ -31,40 +33,34 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     void Initialize()
     {
         edCounter = 0;
-        DisplayNode(rootNode);
+        ClearPage();
     }
 
-    void AnimTurnBook()
+    void AnimTurnPage()
     {
         bookAnim.SetTrigger("TurnPage");
     }
 
-    void AnimCloseBook()
+    public void AnimCloseBook()
     {
         bookAnim.SetTrigger("CloseBook");
     }
 
-    void AnimOpenBook()
+    public void AnimOpenBook()
     {
         bookAnim.SetTrigger("OpenBook");
     }
 
-    public void DisplayNode(TextNode _textNode)
+    public void StartStory()
     {
-        if (_textNode.edMeeting == true)
-        {
-            edCounter++;
-        }
-
-        ClearOptions();
-        bodyText.text = _textNode.GetText(edCounter);
-        GenerateOptions(_textNode);
-
-        optionsChosen.Add(_textNode);
+        startUI.gameObject.SetActive(false);
+        AnimOpenBook();
+        GetNextNode(rootNode);
     }
 
-    void ClearOptions()
+    void ClearPage()
     {
+        bodyText.text = "";
         foreach(Transform option in optionsContainer)
         {
             option.gameObject.SetActive(false);
@@ -90,5 +86,40 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     {
         _nodeObject.GetComponentInChildren<TextMeshProUGUI>().text = _option.bodyText;
         _nodeObject.GetComponentInChildren<Button>().onClick.AddListener(_option.linkedNode.GoToThisOption);
+    }
+
+    public void GetNextNode(TextNode _textNode)
+    {
+        StartCoroutine(GetNextNodeCR(_textNode));
+    }
+
+    IEnumerator GetNextNodeCR(TextNode _textNode)
+    {
+        ClearPage();
+
+        if (storyStarted)
+        {
+            AnimTurnPage();
+        }
+        else
+        {
+            storyStarted = true;
+            AnimOpenBook();
+        }
+
+        yield return new WaitForSeconds(0.5F);
+
+        AudioManager.Instance.RequestAmbienceTrack(_textNode.AmbienceTrack);
+        AudioManager.Instance.RequestMusicTrack(_textNode.MusicTrack);
+
+        if (_textNode.edMeeting == true)
+        {
+            edCounter++;
+        }
+
+        bodyText.text = _textNode.GetText(edCounter);
+        GenerateOptions(_textNode);
+
+        optionsChosen.Add(_textNode);
     }
 }
