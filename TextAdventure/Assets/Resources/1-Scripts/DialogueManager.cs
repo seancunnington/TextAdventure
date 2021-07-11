@@ -13,6 +13,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     public RectTransform endGameScreen;
     public RectTransform startGameScreen;
     public RectTransform optionsContainer;
+    public Animator bookAnim;
     #endregion
 
     #region Cache
@@ -26,14 +27,35 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         Initialize();
     }
     #endregion
+
     void Initialize()
     {
         edCounter = 0;
         DisplayNode(rootNode);
     }
 
+    void AnimTurnBook()
+    {
+        bookAnim.SetTrigger("TurnPage");
+    }
+
+    void AnimCloseBook()
+    {
+        bookAnim.SetTrigger("CloseBook");
+    }
+
+    void AnimOpenBook()
+    {
+        bookAnim.SetTrigger("OpenBook");
+    }
+
     public void DisplayNode(TextNode _textNode)
     {
+        if (_textNode.edMeeting == true)
+        {
+            edCounter++;
+        }
+
         ClearOptions();
         bodyText.text = _textNode.GetText(edCounter);
         GenerateOptions(_textNode);
@@ -54,10 +76,13 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         int index = 0;
         foreach (NodeOption option in _node.nodeOptions)
         {
-            GameObject optionGO = optionsContainer.GetChild(index).gameObject;
-            optionGO.SetActive(true);
+            if (optionsChosen.Contains(option.requiredPreviousNode) || option.requiredPreviousNode == null)
+            {
+                GameObject optionGO = optionsContainer.GetChild(index).gameObject;
+                optionGO.SetActive(true);
 
-            SetOption(optionGO, option);
+                SetOption(optionGO, option);
+            }
         }
     }
 

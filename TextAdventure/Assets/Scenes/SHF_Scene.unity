@@ -372,6 +372,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1024189637135896655, guid: c0125201e8775404981123b6d24f0647, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024189637135896655, guid: c0125201e8775404981123b6d24f0647, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024189637135896655, guid: c0125201e8775404981123b6d24f0647, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024189637135896655, guid: c0125201e8775404981123b6d24f0647, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
     - target: {fileID: 1024189637347528418, guid: c0125201e8775404981123b6d24f0647, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -464,5 +480,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7159902567918385582, guid: c0125201e8775404981123b6d24f0647, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6320008101552849038, guid: 282eb57950e14f54093834cca23e3bfa, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0125201e8775404981123b6d24f0647, type: 3}
+--- !u!1 &1024189637353647932 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1024189637219173042, guid: c0125201e8775404981123b6d24f0647, type: 3}
+  m_PrefabInstance: {fileID: 1024189637353647931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1024189637353647933
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024189637353647932}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 39e924f06161c8a4b8a5644ad77117ed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
