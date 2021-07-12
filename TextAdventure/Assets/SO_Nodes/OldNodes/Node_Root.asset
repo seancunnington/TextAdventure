@@ -15,17 +15,16 @@ MonoBehaviour:
   edMeeting: 0
   edOptions:
   - requiredMeetings: 0
-    bodyText: We've never seen Edguardo.
-  - requiredMeetings: 3
-    bodyText: We've seen Edguardo around.
-  - requiredMeetings: 5
-    bodyText: We are incredibly familiar with Edguardo.
+    bodyText: Root
   nodeOptions:
   - linkedNode: {fileID: 11400000, guid: 78b3d8a7106ae4f4fa0beed2215409fe, type: 2}
-    bodyText: I require Node 2.
-    requiredPreviousNode: {fileID: 11400000, guid: 78b3d8a7106ae4f4fa0beed2215409fe, type: 2}
-  - linkedNode: {fileID: 11400000, guid: 78b3d8a7106ae4f4fa0beed2215409fe, type: 2}
-    bodyText: I require nothing.
+    bodyText: Go to A1
+    requiredPreviousNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000, guid: ddaea5ee139230f47b284428cee5cccf, type: 2}
+    bodyText: Go to A2
+    requiredPreviousNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000, guid: 03197306b52f4644e90e4a0c002b7f15, type: 2}
+    bodyText: Go to A3
     requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}
   AmbienceTrack: {fileID: 0}

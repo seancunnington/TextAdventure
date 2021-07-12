@@ -64,6 +64,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         bodyText.text = "";
         foreach(Transform option in optionsContainer)
         {
+            option.gameObject.GetComponentInChildren<Button>().onClick.RemoveAllListeners();
             option.gameObject.SetActive(false);
         }
     }
@@ -98,12 +99,13 @@ public class DialogueManager : MonoSingleton<DialogueManager>
 
     IEnumerator GetNextNodeCR(TextNode _textNode)
     {
+        
         ClearPage();
 
         if (storyStarted)
         {
             AnimTurnPage();
-            AudioManager.Instance.PlaySFX(pageFlipSFX);
+            AudioSource.PlayClipAtPoint(pageFlipSFX, Camera.main.transform.position);
         }
         else
         {

@@ -20,13 +20,13 @@ MonoBehaviour:
       that Carries. The shopkeep hasn\u2019t seen you yet, and no one else is in
       the store, so you casually peruse the wares."
   nodeOptions:
-  - linkedNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000, guid: e978562e4a74c4a43a9cb0bd47321741, type: 2}
     bodyText: Buy an outfit like a normal naked human being
     requiredPreviousNode: {fileID: 0}
-  - linkedNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000, guid: 2f6cd7c2dcdf9484e859d1a597d8a42d, type: 2}
     bodyText: Present Exhibit D to the shopkeepers court
     requiredPreviousNode: {fileID: 0}
-  - linkedNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000}
     bodyText: Who pays for clothes these days? Rob the place.
     requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}

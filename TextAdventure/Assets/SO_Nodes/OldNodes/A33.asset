@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fcb0d7bee9bf3534da865b85fbc10d9f, type: 3}
-  m_Name: BB3_EndNode_ToKillMockingBird
+  m_Name: A33
   m_EditorClassIdentifier: 
   edMeeting: 0
   edOptions:
   - requiredMeetings: 0
-    bodyText: BB3 <PLACEHOLDER>
+    bodyText: A32
   nodeOptions:
-  - linkedNode: {fileID: 11400000, guid: ad96f41d408866841b0ed132fc0c486f, type: 2}
-    bodyText: <PLACEHOLDER>
+  - linkedNode: {fileID: 11400000, guid: 59dbaa0d4e2551842a756f6e0c8f37b6, type: 2}
+    bodyText: Go to Root.
     requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}
   AmbienceTrack: {fileID: 0}

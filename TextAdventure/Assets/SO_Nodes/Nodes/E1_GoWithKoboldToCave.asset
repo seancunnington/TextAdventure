@@ -21,10 +21,10 @@ MonoBehaviour:
       but doesn\u2019t bother you much. The cave is fairly empty except for a large
       stone bed as well as an elegant statue of a multi headed dragon."
   nodeOptions:
-  - linkedNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000, guid: ea73a213429f76c4ea6c52e231f35f6c, type: 2}
     bodyText: You came here to slay, Lay down on the large stone bed
     requiredPreviousNode: {fileID: 0}
-  - linkedNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000, guid: 2f6cd7c2dcdf9484e859d1a597d8a42d, type: 2}
     bodyText: Realize that this might be a bad Idea. Call for Edguardo
     requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}

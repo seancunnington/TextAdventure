@@ -26,7 +26,7 @@ MonoBehaviour:
   - linkedNode: {fileID: 11400000, guid: bb1e825717c0c1f4c9428e6c2406a6d5, type: 2}
     bodyText: Drop into that nice looking shop
     requiredPreviousNode: {fileID: 0}
-  - linkedNode: {fileID: 0}
+  - linkedNode: {fileID: 11400000, guid: 31ee3c0d4df2008489de72b9439b5f0a, type: 2}
     bodyText: Continue your morning run
     requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}

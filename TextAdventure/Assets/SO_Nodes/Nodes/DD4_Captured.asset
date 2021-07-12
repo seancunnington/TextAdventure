@@ -10,18 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fcb0d7bee9bf3534da865b85fbc10d9f, type: 3}
-  m_Name: C2_EndNode_WhatIsWrongWithYou
+  m_Name: DD4_Captured
   m_EditorClassIdentifier: 
   edMeeting: 0
   edOptions:
   - requiredMeetings: 0
-    bodyText: Winter air be damned! Your euphoria and idiotic confidence will keep
-      you warm! You speed through the streets, women and children shrieking. You
-      vault over a donkey, run up the stairs to the temple and sing songs of glory
-      to all the gods! Your streak of wild abandonment continues out the gates and
-      the last that is seen of Som Juan is the glow of a full moon in the trees...
+    bodyText: DD4 <PLACEHOLDER>
   nodeOptions:
-  - linkedNode: {fileID: 11400000, guid: ad96f41d408866841b0ed132fc0c486f, type: 2}
+  - linkedNode: {fileID: 11400000, guid: 535df795c6d2cc14ba32e12f6d445240, type: 2}
     bodyText: <PLACEHOLDER>
     requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}

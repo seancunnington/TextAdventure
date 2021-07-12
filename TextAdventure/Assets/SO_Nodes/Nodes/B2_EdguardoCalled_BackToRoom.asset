@@ -22,7 +22,7 @@ MonoBehaviour:
       break up this typical tavern treachery.
   nodeOptions:
   - linkedNode: {fileID: 11400000, guid: ad96f41d408866841b0ed132fc0c486f, type: 2}
-    bodyText: 
+    bodyText: <PLACEHOLDER>
     requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}
   AmbienceTrack: {fileID: 0}

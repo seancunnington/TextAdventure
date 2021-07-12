@@ -21,8 +21,8 @@ MonoBehaviour:
       a large knife plunging it into your chest carving out your heart as it all
       goes dark all you hear is \u201Cbe food for the queen of dragons.\u201D"
   nodeOptions:
-  - linkedNode: {fileID: 0}
-    bodyText: 
+  - linkedNode: {fileID: 11400000, guid: ad96f41d408866841b0ed132fc0c486f, type: 2}
+    bodyText: <PLACEHOLDER>
     requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}
   AmbienceTrack: {fileID: 0}
