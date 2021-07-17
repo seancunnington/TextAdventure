@@ -26,7 +26,7 @@ MonoBehaviour:
   - linkedNode: {fileID: 11400000, guid: 2f6cd7c2dcdf9484e859d1a597d8a42d, type: 2}
     bodyText: Present Exhibit D to the shopkeepers court
     requiredPreviousNode: {fileID: 0}
-  - linkedNode: {fileID: 11400000}
+  - linkedNode: {fileID: 11400000, guid: 535df795c6d2cc14ba32e12f6d445240, type: 2}
     bodyText: Who pays for clothes these days? Rob the place.
     requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}

@@ -10,15 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fcb0d7bee9bf3534da865b85fbc10d9f, type: 3}
-  m_Name: DD4_Captured
+  m_Name: BB4_GettingReady
   m_EditorClassIdentifier: 
   edMeeting: 0
   edOptions:
   - requiredMeetings: 0
-    bodyText: DD4 <PLACEHOLDER>
+    bodyText: "You just make it upstairs in time to save your trousers. Your stomach
+      and the chamberpot will probably never forgive you, though. Ah well, sue the
+      cook, dump the \u2018pot out the window, and let\u2019s get ready for some
+      adventuring at the store!"
   nodeOptions:
-  - linkedNode: {fileID: 11400000, guid: 535df795c6d2cc14ba32e12f6d445240, type: 2}
-    bodyText: <PLACEHOLDER>
+  - linkedNode: {fileID: 11400000, guid: cc56281abfa137041b166aadefd5cffc, type: 2}
+    bodyText: "Let\u2019s get ready for some adventuring at the store!"
     requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}
   AmbienceTrack: {fileID: 0}

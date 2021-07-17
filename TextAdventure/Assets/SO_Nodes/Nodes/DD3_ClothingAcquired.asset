@@ -18,7 +18,7 @@ MonoBehaviour:
     bodyText: "You saunter up to the cashier to buy the somewhat ugly and ill-fitting
       garments you\u2019re holding over your...god-given glory. You hastily scrabble
       over to a private corner of the shop and dress then decide to head back to
-      the tavern for some breakfast or fun before really starting your adventure."
+      the tavern for some breakfast or fun before really starting your adventure. "
   nodeOptions:
   - linkedNode: {fileID: 11400000, guid: 780a52dc37dde6d48b0ecaba39cd2c1b, type: 2}
     bodyText: You go to grab some grub

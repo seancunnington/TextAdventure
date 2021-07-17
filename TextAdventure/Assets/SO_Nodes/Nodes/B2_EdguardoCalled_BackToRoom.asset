@@ -15,14 +15,39 @@ MonoBehaviour:
   edMeeting: 1
   edOptions:
   - requiredMeetings: 0
-    bodyText: Realizing you bit off more than you can chew you, attempt to flee the
-      tavern and call Edguardo! After a harrowing trek through fists and fannies
+    bodyText: "Realizing you bit off more than you can chew you, attempt to flee
+      the tavern and call Edguardo! After a harrowing trek through fists and fannies
       as well as a flurry of flailing fanatics you reach the doorway. Despite all
-      your effort Edguardo is already in the doory wait and jumps into the fray to
-      break up this typical tavern treachery.
+      your effort Edguardo is already in the doory waiting and jumps into the fray
+      to break up this typical tavern treachery. He \u201Caccidentally\u201D manages
+      to hit you in the melee and you black out, only to wake up in your room."
+  - requiredMeetings: 0
+    bodyText: "Realizing you bit off more than you can chew you, attempt to flee
+      the tavern and call Edguardo! After a harrowing trek through fists and fannies
+      as well as a flurry of flailing fanatics you reach the doorway. Despite all
+      your effort Edguardo is already in the doory waiting and jumps into the fray
+      to break up this typical tavern treachery. He \u201Caccidentally\u201D manages
+      to hit you in the melee and you black out, only to wake up in your room. Edguardo
+      is miffed to see you again. "
+  - requiredMeetings: 0
+    bodyText: "Realizing you bit off more than you can chew you, attempt to flee
+      the tavern and call Edguardo! After a harrowing trek through fists and fannies
+      as well as a flurry of flailing fanatics you reach the doorway. Despite all
+      your effort Edguardo is already in the doory waiting and jumps into the fray
+      to break up this typical tavern treachery. He \u201Caccidentally\u201D manages
+      to hit you in the melee and you black out, only to wake up in your room. Edguardo
+      is visibly seething with discontent over his lot in life."
+  - requiredMeetings: 0
+    bodyText: "Realizing you bit off more than you can chew you, attempt to flee
+      the tavern and call Edguardo! After a harrowing trek through fists and fannies
+      as well as a flurry of flailing fanatics you reach the doorway. Despite all
+      your effort Edguardo is already in the doory waiting and jumps into the fray
+      to break up this typical tavern treachery. He \u201Caccidentally\u201D manages
+      to hit you in the melee and you black out, only to wake up in your room. Edguardo
+      looks like he\u2019d like to remove your head from your shoulders. "
   nodeOptions:
   - linkedNode: {fileID: 11400000, guid: ad96f41d408866841b0ed132fc0c486f, type: 2}
-    bodyText: <PLACEHOLDER>
+    bodyText: Time to start another day
     requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}
   AmbienceTrack: {fileID: 0}

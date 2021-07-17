@@ -23,7 +23,7 @@ MonoBehaviour:
   - linkedNode: {fileID: 11400000, guid: ee147facb8614cb428210d068aa6313b, type: 2}
     bodyText: Outside, quickly!
     requiredPreviousNode: {fileID: 0}
-  - linkedNode: {fileID: 11400000, guid: cc56281abfa137041b166aadefd5cffc, type: 2}
+  - linkedNode: {fileID: 11400000, guid: 791a80b58bc04b746bcb484e58cb31af, type: 2}
     bodyText: Run upstairs to the chamber pot!
     requiredPreviousNode: {fileID: 0}
   - linkedNode: {fileID: 11400000, guid: 5e161a38c621e124293619cc2810edf6, type: 2}

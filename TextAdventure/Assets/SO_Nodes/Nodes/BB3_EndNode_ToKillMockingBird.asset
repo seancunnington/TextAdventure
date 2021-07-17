@@ -15,7 +15,13 @@ MonoBehaviour:
   edMeeting: 0
   edOptions:
   - requiredMeetings: 0
-    bodyText: BB3 <PLACEHOLDER>
+    bodyText: "It just sounds bad, right? Maybe if you just let a little gas out,
+      it\u2019ll clear up ok. Unfortunately it wasn\u2019t. You freeze and hope no
+      one notices. The tavern goers next to you sniff the air, and the sniffs spread
+      out like the ripples in a pond. \u201COi! That guy just shit \u2018isself!\u201D
+      you hear someone say. You look up and his finger is pointing right at you and
+      your humiliation. There\u2019s no way to deny it, and you awkwardly walk up
+      the stairs to the crowd\u2019s laughter and hide in your room forever."
   nodeOptions:
   - linkedNode: {fileID: 11400000, guid: ad96f41d408866841b0ed132fc0c486f, type: 2}
     bodyText: <PLACEHOLDER>

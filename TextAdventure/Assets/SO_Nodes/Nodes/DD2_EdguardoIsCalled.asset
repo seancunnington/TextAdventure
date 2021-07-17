@@ -22,7 +22,36 @@ MonoBehaviour:
       Almost instantaneously, Edguardo the guard is there. He looks at you and stops,
       raising an eyebrow. You don\u2019t think Edguardo is impressed by your physique.
       He tells you to get your ass back to your room and dress then quietly slips
-      a coin into the Kobolds hand..."
+      a coin into the Kobolds hand\u2026"
+  - requiredMeetings: 0
+    bodyText: "You step out, gyrating and smiling like an idiot. The Kobold turns
+      and stops, raising an eyebrow. It seems nonplussed and slightly annoyed. You
+      didn\u2019t stop to think if it was male or female, or if Kobolds are even
+      attracted to humans. It reaches a claw under the counter and you hear an alarm.
+      Almost instantaneously, Edguardo the guard is there. He looks at you and stops,
+      raising an eyebrow. You don\u2019t think Edguardo is impressed by your physique.
+      He tells you to get your ass back to your room and dress then quietly slips
+      a coin into the Kobolds hand\u2026 Edguardo is miffed to see you again. "
+  - requiredMeetings: 0
+    bodyText: "You step out, gyrating and smiling like an idiot. The Kobold turns
+      and stops, raising an eyebrow. It seems nonplussed and slightly annoyed. You
+      didn\u2019t stop to think if it was male or female, or if Kobolds are even
+      attracted to humans. It reaches a claw under the counter and you hear an alarm.
+      Almost instantaneously, Edguardo the guard is there. He looks at you and stops,
+      raising an eyebrow. You don\u2019t think Edguardo is impressed by your physique.
+      He tells you to get your ass back to your room and dress then quietly slips
+      a coin into the Kobolds hand\u2026 Edguardo is visibly seething with discontent
+      over his lot in life "
+  - requiredMeetings: 0
+    bodyText: "You step out, gyrating and smiling like an idiot. The Kobold turns
+      and stops, raising an eyebrow. It seems nonplussed and slightly annoyed. You
+      didn\u2019t stop to think if it was male or female, or if Kobolds are even
+      attracted to humans. It reaches a claw under the counter and you hear an alarm.
+      Almost instantaneously, Edguardo the guard is there. He looks at you and stops,
+      raising an eyebrow. You don\u2019t think Edguardo is impressed by your physique.
+      He tells you to get your ass back to your room and dress then quietly slips
+      a coin into the Kobolds hand\u2026 Edguardo looks like he\u2019d like to remove
+      your head from your shoulders. "
   nodeOptions:
   - linkedNode: {fileID: 11400000, guid: ad96f41d408866841b0ed132fc0c486f, type: 2}
     bodyText: <PLACEHOLDER>

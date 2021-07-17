@@ -15,10 +15,42 @@ MonoBehaviour:
   edMeeting: 1
   edOptions:
   - requiredMeetings: 0
-    bodyText: BB2 <PLACEHOLDER>
+    bodyText: "You hobble outside, knowing you can\u2019t make it to the chamberpot
+      dumps and desperately look for sewhomere to contain the biological hazard.
+      Ah! A bucket! Your business ended, you vow not to eat pig innards again for
+      a while, when suddenly you\u2019re spun around by the guard Eduardo! \u201CDid
+      you just shit in my helmet?!?!?\u201D  \tYou sheepishly nod, realizing you
+      apparently have no idea what a bucket looks like. Edguardo grabs you roughly
+      and throws you back into your room."
+  - requiredMeetings: 0
+    bodyText: "You hobble outside, knowing you can\u2019t make it to the chamberpot
+      dumps and desperately look for sewhomere to contain the biological hazard.
+      Ah! A bucket! Your business ended, you vow not to eat pig innards again for
+      a while, when suddenly you\u2019re spun around by the guard Eduardo! \u201CDid
+      you just shit in my helmet?!?!?\u201D  \tYou sheepishly nod, realizing you
+      apparently have no idea what a bucket looks like. Edguardo grabs you roughly
+      and throws you back into your room. Edguardo is miffed to see you again. "
+  - requiredMeetings: 0
+    bodyText: "You hobble outside, knowing you can\u2019t make it to the chamberpot
+      dumps and desperately look for sewhomere to contain the biological hazard.
+      Ah! A bucket! Your business ended, you vow not to eat pig innards again for
+      a while, when suddenly you\u2019re spun around by the guard Eduardo! \u201CDid
+      you just shit in my helmet?!?!?\u201D  \tYou sheepishly nod, realizing you
+      apparently have no idea what a bucket looks like. Edguardo grabs you roughly
+      and throws you back into your room. Edguardo is visibly seething with discontent
+      over his lot in life "
+  - requiredMeetings: 0
+    bodyText: "You hobble outside, knowing you can\u2019t make it to the chamberpot
+      dumps and desperately look for sewhomere to contain the biological hazard.
+      Ah! A bucket! Your business ended, you vow not to eat pig innards again for
+      a while, when suddenly you\u2019re spun around by the guard Eduardo! \u201CDid
+      you just shit in my helmet?!?!?\u201D  \tYou sheepishly nod, realizing you
+      apparently have no idea what a bucket looks like. Edguardo grabs you roughly
+      and throws you back into your room. Edguardo looks like he\u2019d like to remove
+      your head from your shoulders. "
   nodeOptions:
   - linkedNode: {fileID: 11400000, guid: ad96f41d408866841b0ed132fc0c486f, type: 2}
-    bodyText: <PLACEHOLDER>
+    bodyText: You sleep it off and wake up in bed
     requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}
   AmbienceTrack: {fileID: 0}
