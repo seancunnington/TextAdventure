@@ -20,10 +20,7 @@ MonoBehaviour:
       vault over a donkey, run up the stairs to the temple and sing songs of glory
       to all the gods! Your streak of wild abandonment continues out the gates and
       the last that is seen of Som Juan is the glow of a full moon in the trees...
-  nodeOptions:
-  - linkedNode: {fileID: 11400000, guid: ad96f41d408866841b0ed132fc0c486f, type: 2}
-    bodyText: <PLACEHOLDER>
-    requiredPreviousNode: {fileID: 0}
+  nodeOptions: []
   sfx: {fileID: 0}
   AmbienceTrack: {fileID: 0}
   MusicTrack: {fileID: 0}

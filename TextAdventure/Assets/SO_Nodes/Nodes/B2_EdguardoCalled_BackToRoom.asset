@@ -50,5 +50,5 @@ MonoBehaviour:
     bodyText: Time to start another day
     requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}
-  AmbienceTrack: {fileID: 0}
+  AmbienceTrack: {fileID: 8300000, guid: 47b8b2e95bbee5848a18b17ee8f8534a, type: 3}
   MusicTrack: {fileID: 0}

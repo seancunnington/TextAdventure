@@ -15,16 +15,13 @@ MonoBehaviour:
   edMeeting: 0
   edOptions:
   - requiredMeetings: 0
-    bodyText: 'As the tavern brawl rages around you, dodging everything from knives
+    bodyText: As the tavern brawl rages around you, dodging everything from knives
       and plates to stools and fists. You finally notice it. The only true weapon
       you need, A large fish tail is what you see out of the corner of your eye and
       you snatch it up then attempt to raise it skyward! But as do you realize that
       this is a naga arm and proceed to get pummeled by this large fish man ending
-      your career as an adventurer for today '
-  nodeOptions:
-  - linkedNode: {fileID: 11400000, guid: ad96f41d408866841b0ed132fc0c486f, type: 2}
-    bodyText: You... Wake up in bed?
-    requiredPreviousNode: {fileID: 0}
+      your career as an adventurer.
+  nodeOptions: []
   sfx: {fileID: 0}
-  AmbienceTrack: {fileID: 0}
-  MusicTrack: {fileID: 0}
+  AmbienceTrack: {fileID: 8300000, guid: 47b8b2e95bbee5848a18b17ee8f8534a, type: 3}
+  MusicTrack: {fileID: 8300000, guid: 09fda0f184a5a2743a93566be6ce5323, type: 3}

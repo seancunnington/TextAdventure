@@ -30,5 +30,5 @@ MonoBehaviour:
     bodyText: Continue your morning run
     requiredPreviousNode: {fileID: 0}
   sfx: {fileID: 0}
-  AmbienceTrack: {fileID: 8300000, guid: 687620f4a13c0f642aee5d25af08eec0, type: 3}
-  MusicTrack: {fileID: 0}
+  AmbienceTrack: {fileID: 0}
+  MusicTrack: {fileID: 8300000, guid: f4656f5094d8a3942b9bd432d0490a57, type: 3}
